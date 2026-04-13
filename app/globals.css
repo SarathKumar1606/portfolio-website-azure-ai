@@ -18,9 +18,8 @@
 	--blue-400: #61dafb;
 	--blue-800: #0a61ae;
 }
-.container {
-  max-width: 1400px;
-}
+
+  
 body {
 	font-family: "Open Sans", sans-serif;
 	font-optical-sizing: auto;
@@ -141,6 +140,8 @@ section {
 	gap:30px;
 	margin-top:30px;
 	margin-bottom:30px;
+  padding-left: 30px;   /* ✅ ALWAYS apply */
+	padding-right: 30px;
 
 	@media (max-width:1440px){
 		padding-left:30px;
