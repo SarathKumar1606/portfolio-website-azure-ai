@@ -54,7 +54,7 @@ const [messages, setMessages] = useState([
         <header>
         <a href="#" className="logo-holder">
           <div className="logo">S</div>
-          <div className="logo-text">Sarathkumar's Portfolio</div>
+          <div className="logo-text">Portfolio Website</div>
         </a>
         <nav>
           <ul id="menu" className={menuOpen ? "active" : ""}>
@@ -332,7 +332,7 @@ const [messages, setMessages] = useState([
 			</div>
 		</section>
     </main>
-   <footer className="footer">
+   <footer className="footer ">
   <div className="footer-container">
 
     <div className="footer-left">
