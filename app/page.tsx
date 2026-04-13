@@ -52,94 +52,105 @@ const [messages, setMessages] = useState([
   return (
     <>
         <header>
-        
-            <a href="#" className="logo-holder">
-                <div className="logo">L</div>
-                <div className="logo-text">Portfolio Website</div>
-            </a>
-        <nav>
-        <ul id="menu">
-            <li>
-                <a href="#"> Home</a>
-            </li>
-            <li>
-                <a href="#skills">Skills </a>
-            </li>
-            <li>
-                <a href="#projects"> Projects</a>
-            </li>
-            <li>
-                <a href="mailto:sarathhh16@gmail.com" className = "button"> Contact Me</a>
-            </li>
-        </ul>
-        <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
-            <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-           <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M5 7h14M5 12h14M5 17h14"/>
-            </svg>
+        <a href="#" className="logo-holder">
+          <div className="logo">S</div>
+          <div className="logo-text">Sarathkumar's Portfolio</div>
         </a>
+        <nav>
+          <ul id="menu" className={menuOpen ? "active" : ""}>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="mailto:sarathhh16@gmail.com" className="button">Contact Me</a>
+            </li>
+          </ul>
+          <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
+            <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M5 7h14M5 12h14M5 17h10"/>
+            </svg>
+          </a>
         </nav>
-    </header>
-    <main>
+      </header>
+      <main>
         <section className="hero container">
-            <div className ="hero-blue">
-                <div>
-                    <h1><small>Hi I'm</small>
-                    Sarathkumar Ravichandran</h1>
-                    <p>
-                        Software Developer
-                        <span>I'm interestered in </span>
-                    </p>
-                    <div className="call-to-action">
-                    <a href="#" className="button black">
-                        View Resume
-                    </a>
-                    <a href="mailto:sarathhh16@gmail.com" className="button white">
-                        Contact Me
-                    </a>
-                </div>
-                </div>
-                <div className="social-links">
-                <a href="#">
-                    <img src="./imgs/github.png" alt="Github" width="48px"/>
+          <div className="hero-blue">
+            <div>
+              <h1><small>Hi I'm</small>
+                Sarathkumar R
+              </h1>
+              <p>
+                <span>Full Stack Developer passionate about building real-world solutions using web technologies, IoT, and AI. I enjoy creating impactful systems that combine software, data, and problem-solving.</span>
+              </p>
+              <div className="call-to-action">
+                <a href="./RESUME_26.pdf" className="button black">
+                  View Resume
                 </a>
-                <a href="#">
-                    <img src="./imgs/linkedin.png" alt="LinkedIn" width="48px"/>
+                <a href="mailto:sarathhh16@gmail.com" className="button white">
+                  Contact Me
                 </a>
+              </div>
+              <div className="social-links">
+                <a href="https://github.com/SarathKumar1606">
+                  <img src="./imgs/github.png" alt="GitHub" width="48" />
+                </a>
+                <a href="https://www.linkedin.com/in/sarathkumar-ravichandran-885979279/">
+                  <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+                </a>
+                <a href="https://leetcode.com/u/Sarathhh16/">
+                  <img src="./imgs/leet.webp" alt="LeetCode" width="48" />
+                </a>
+              </div>
             </div>
-            </div>
-            
-            
-            <div className="hero-yellow">
-                <img src="./imgs/hero-image.png" alt="Sarathkumar R" width="100%"/>
-            </div>
-
+          </div>
+          <div className="hero-yellow">
+            <img src="./imgs/dp.png" alt="Sarathkumar R" width="100%" />
+          </div>
         </section>
         <section className="logos container">
-            <div className="marquee">
-                <div className="track">
-                    <img src="./imgs/html.png" alt="HTML" width="128"/>
-                    <img src="./imgs/css.png" alt="CSS" width="128"/>
-                    <img src="./imgs/javascript.png" alt="JS" width="128"/>
-                    <img src="./imgs/react.png" alt="React" width="128"/>
-                    <img src="./imgs/sass.png" alt="Sass" width="128"/>
-                    <img src="./imgs/nextjs.png" alt="Next JS" width="128"/>
-                    <img src="./imgs/azure.png" alt="Azure" width="128"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="128"/>
-                    <img src="./imgs/python.png" alt="Python" width="128"/>
-
-                    <img src="./imgs/html.png" alt="HTML" width="128"/>
-                    <img src="./imgs/css.png" alt="CSS" width="128"/>
-                    <img src="./imgs/javascript.png" alt="JS" width="128"/>
-                    <img src="./imgs/react.png" alt="React" width="128"/>
-                    <img src="./imgs/sass.png" alt="Sass" width="128"/>
-                    <img src="./imgs/nextjs.png" alt="Next JS" width="128"/>
-                    <img src="./imgs/azure.png" alt="Azure" width="128"/>
-                    <img src="./imgs/vscode.png" alt="VS Code" width="128"/>
-                    <img src="./imgs/python.png" alt="Python" width="128"/>
-                </div>
+          <div className="marquee">
+            <div className="track">
+              
+              <img src="./imgs/c.png" width="128" alt="C" />
+              <img src="./imgs/cpp.jpg" width="128" alt="C++" />
+              <img src="./imgs/python.png" width="128" alt="Python" />
+              <img src="./imgs/java.png" width="128" alt="Java" />
+              <img src="./imgs/html.png" alt="HTML" width="128" />
+              <img src="./imgs/css.png" alt="CSS" width="128" />
+              <img src="./imgs/javascript.png" alt="JS" width="128" />
+              <img src="./imgs/ejs.png" width="128" alt="EJS" />
+              <img src="./imgs/nodejs.png" width="128" alt="Node.js" />
+              <img src="./imgs/sql.png" width="128" alt="SQL" />
+              <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+              <img src="./imgs/git.png" width="128" alt="Git" />
+              <img src="./imgs/github.png" width="128" alt="GitHub" />
+              <img src="./imgs/postman.png" width="128" alt="Postman" />
+              
+               <img src="./imgs/c.png" width="128" alt="C" />
+              <img src="./imgs/cpp.jpg" width="128" alt="C++" />
+              <img src="./imgs/python.png" width="128" alt="Python" />
+              <img src="./imgs/java.png" width="128" alt="Java" />
+              <img src="./imgs/html.png" alt="HTML" width="128" />
+              <img src="./imgs/css.png" alt="CSS" width="128" />
+              <img src="./imgs/javascript.png" alt="JS" width="128" />
+              <img src="./imgs/ejs.png" width="128" alt="EJS" />
+              <img src="./imgs/nodejs.png" width="128" alt="Node.js" />
+              <img src="./imgs/sql.png" width="128" alt="SQL" />
+              <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+              <img src="./imgs/git.png" width="128" alt="Git" />
+              <img src="./imgs/github.png" width="128" alt="GitHub" />
+              <img src="./imgs/postman.png" width="128" alt="Postman" />
+              
             </div>
+          </div>
         </section>
-        <section  id="skills" className="skills container">
+         <section  id="skills" className="skills container">
             <h2>
                 <small>About Me</small>
                 Skills
@@ -182,61 +193,97 @@ const [messages, setMessages] = useState([
                 </div>
                 <div className="right-column">
                     <h3>A bit about me</h3>
-                    <p>I'm sarathkumar...</p>
+                    <p>
+                      I'm Sarathkumar, a B.Tech Information Technology student at the College of Engineering Guindy (Anna University), currently maintaining a CGPA of 8.82.</p>
 
-                    <p>Im currently working on</p>
+<p>I completed my schooling with 98.5% in Higher Secondary and secured a 94.88 percentile in JEE Mains, graduating as a school topper and Student Council President.</p>
+
+<p>Based in Coimbatore, I am passionate about building real-world solutions using web development, IoT, and AI. I enjoy combining technical skills with leadership and communication to create meaningful impact.</p>
+
+<p>Currently, I’m working on full-stack and IoT-based projects, continuously improving my problem-solving and development skills.
+                    </p>
                 </div>
             </div>
         </section>
-        <section className="work-experience">
-            <h2>
-                <small>Recent</small>
-                Work Experience
-            </h2>
-                <div className="jobs">
-                    <article>
-                        <figure>
-                            <div>
-                                <img src="./imgs/workplace-1.jpg" alt="Workplace-1" width="100%"/>
-                                <figcaption>
-                                    Workpace-1
-                                </figcaption>
-                            </div>
-                        </figure>
-                        <h3>WP1</h3>
-                        <div>2000</div>
-                        <p>description</p>
-                    </article>
+        <section className="work-experience container">
+          <h2>
+            <small>Leadership and</small>
+             Experience
+          </h2>
+          <div className="jobs">
+            <article>
+              <figure>
+                <div>
+                  <img src="./imgs/aup.jpeg" alt="AU Podium" width="100%" />
+                  <figcaption>
+                    Secretary – AU Podium
+                  </figcaption>
                 </div>
+              </figure>
+              <h3>Secretary – AU Podium</h3>
+              <div>2024 – Present</div>
+              <p>Leading a speech and communication club at Anna University, organizing events, mentoring juniors, and managing club activities to improve public speaking skills.</p>
+            </article>
+
+
+
+            <article>
+              <figure>
+                <div>
+                  <img src="./imgs/nss.jpg" alt="NSS" width="100%" />
+                  <figcaption>
+                    Joint Secretary – NSS Unit 4
+                  </figcaption>
+                </div>
+              </figure>
+              <h3>Joint Secretary – NSS Unit 4</h3>
+              <div>2023 – Present</div>
+              <p>Actively involved in community service initiatives including awareness campaigns, blood donation drives, and campus cleaning activities. </p>
+            </article>
+            <article>
+              <figure>
+                <div>
+                  <img src="./imgs/mc.jpeg" alt="Master of Ceremony" width="100%" />
+                  <figcaption>
+                    Master of Ceremony
+                  </figcaption>
+                </div>
+              </figure>
+              <h3>Master of Ceremony</h3>
+              <div>2023 – Present</div>
+              <p>Hosted major college events such as Infiesta 2025, Freshers’ Day, and Aatral, showcasing strong communication, coordination, and stage presence.</p>
+            </article>
+            
+          </div>
         </section>
         <section id="projects" className="bento container">
-			<h2>
-				<small>
-					Previous
-				</small>
-				Completed Projects
-			</h2>
-			<div className="bento-grid">
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
-				</a>
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
-				</a>
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-3.jpg" alt="Harley" width="100%" />
-				</a>
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-5.jpg" alt="Bunbury" width="100%" />
-				</a>
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-6.jpg" alt="Running" width="100%" />
-				</a>
-				<a href="#" className="bento-item">
-					<img src="./imgs/bento-7.jpg" alt="School" width="100%" />
-				</a>
-			</div>
-		</section>
+          <h2>
+            <small>
+              Previous
+            </small>
+            Completed Projects
+          </h2>
+          <div className="bento-grid">
+            <a href="https://github.com/SarathKumar1606/IntelliWaste-IoT-ML" className="bento-item">
+              <img src="./imgs/binback.jpg" alt="BGCCI" width="100%" />
+            </a>
+            <a href="https://github.com/SarathKumar1606/CEG-Club-Connex/tree/main/Final%20Website%20Outlook" className="bento-item">
+              <img src="./imgs/cegmain.png" alt="Churhview" width="100%" />
+            </a>
+            <a href="https://github.com/SarathKumar1606/C-CargoDSManager/tree/main/Map%20images" className="bento-item">
+              <img src="./imgs/shortest_path.png" alt="Harley" width="100%" />
+            </a>
+            <a href="https://github.com/SarathKumar1606/IntelliWaste-IoT-ML" className="bento-item">
+              <img src="./imgs/binfront.jpg" alt="Bunbury" width="100%" />
+            </a>
+            <a href="https://github.com/SarathKumar1606/C-CargoDSManager/tree/main/Map%20images" className="bento-item">
+              <img src="./imgs/ccs.png" alt="Running" width="100%" />
+            </a>
+            <a href="https://github.com/SarathKumar1606/CEG-Club-Connex/tree/main/Final%20Website%20Outlook" className="bento-item">
+              <img src="./imgs/oblogin.jpg" alt="School" width="100%" />
+            </a>
+          </div>
+        </section>
         <section className="chatbot container">
 			<h2>
 				<small>
@@ -249,7 +296,7 @@ const [messages, setMessages] = useState([
 					<h3>Azure AI Chatbot</h3>
 					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
 					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a project you think I'd be a good fit for, please get in touch!</p>
-					<a href="./Sample_Resume_Template.pdf" className="button black">Download Resume</a>
+					<a href="./RESUME_26.pdf" className="button black">Download Resume</a>
 				</div>
 				<div className="chat-box">
 					<div className="scroll-area">
@@ -285,6 +332,43 @@ const [messages, setMessages] = useState([
 			</div>
 		</section>
     </main>
+   <footer className="footer">
+  <div className="footer-container">
+
+    <div className="footer-left">
+      <h3>Sarathkumar R</h3>
+      <p>
+        Full Stack Developer | IoT & AI Enthusiast <br />
+        Building impactful solutions with code and data.
+      </p>
+    </div>
+
+    <div className="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="mailto:sarathhh16@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+
+    <div className="footer-social">
+      <h4>Connect</h4>
+      <div className="social-icons">
+        <a href="https://github.com/SarathKumar1606"><img src="./imgs/github.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/sarathkumar-ravichandran-885979279/"><img src="./imgs/linkedin.png" alt="LinkedIn" /></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div className="footer-bottom">
+    <p>
+      © {new Date().getFullYear()} Sarathkumar Ravichandran, CEG, Anna University, Chennai
+    </p>
+  </div>
+</footer>
     </> 
   );
 }
