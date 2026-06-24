@@ -86,7 +86,8 @@ const [messages, setMessages] = useState([
                 Sarathkumar R
               </h1>
               <p>
-                <span>Full Stack Developer passionate about building real-world solutions using web technologies, IoT, and AI. I enjoy creating impactful systems that combine software, data, and problem-solving.</span>
+                <span>Information Technology student at CEG, Anna University, combining technical expertise with leadership and communication skills. Passionate about software development, AI, and IoT, with experience building projects that address practical challenges and improve user experiences.
+</span>
               </p>
               <div className="call-to-action">
                 <a href="./RESUME_26.pdf" className="button black">

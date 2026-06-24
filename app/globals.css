@@ -21,15 +21,14 @@
 
   
 body {
-	font-family: "Open Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-size: 20px;
-   background-color: #faf9f6;
-  margin: 0;
-  padding: 0;
+		font-family: "Open Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-size: 16px;
+	 background-color: #faf9f6;
+	margin: 0;
+	padding: 0;
 
-	
 }
 
 a {
@@ -140,7 +139,7 @@ section {
 	gap:30px;
 	margin-top:30px;
 	margin-bottom:30px;
-  padding-left: 30px;   /* ✅ ALWAYS apply */
+  padding-left: 30px;   
 	padding-right: 30px;
 
 	@media (max-width:1440px){
@@ -179,15 +178,15 @@ section {
 }
 
 h1 {
-	font-size:64px;
-	line-height:1;
+	font-size:48px;
+	line-height:1.05;
 	margin-bottom:10px;
 	small {
 		display:block;
 		font-weight:100;
 	}
 	@media (max-width:1024px){
-		font-size:48px;
+		font-size:36px;
 	}
 }
 
@@ -289,8 +288,8 @@ h1 {
 }
 
 h2 {
-	font-size:64px;
-	line-height:1;
+	font-size:48px;
+	line-height:1.1;
 	margin-bottom:10px;
 	text-align:center;
 	color: var(--base-800);
@@ -302,15 +301,15 @@ h2 {
 		color:var(--base);
 	}
 	@media (max-width:1024px){
-		font-size:48px;
+		font-size:36px;
 	}
 }
 
 h3 {
-	font-size:32px;
+	font-size:24px;
 	font-weight:600;
-	line-height:1;
-	margin-bottom:20px;
+	line-height:1.2;
+	margin-bottom:18px;
 	color: var(--base-800);
 }
 
@@ -345,7 +344,7 @@ h3 {
 			flex:1;
 			p {
 				margin-bottom:20px;
-        font-size:25px;
+		font-size:18px;
 			}
 		}
 	}
